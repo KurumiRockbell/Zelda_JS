@@ -1,0 +1,39 @@
+body, html {
+  background-color: #c174dd;
+  height: 100%;
+  overflow: hidden;
+}
+
+#perso{
+  position:absolute;
+}
+
+#piece{
+  position:absolute; 
+}
+
+#goomba{
+  position: absolute; 
+  filter: hue-rotate(90deg); 
+}
+
+#gameover{
+  display: block;
+  margin-left: auto;
+  margin-right: auto; 
+  margin-top: 250px;
+  width: 50%;  
+  filter: hue-rotate(200deg);
+} 
+
+#secondes{    
+  font-family: system-ui; 
+  color: #FFFFFF;
+  text-align: center;
+}   
+
+#score{ 
+  font-family: system-ui; 
+  color: #FFFFFF;
+  text-align: center;
+}
